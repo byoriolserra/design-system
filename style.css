@@ -17,8 +17,9 @@ header h1 {
 .part {
     border: 1px solid black;
     height: auto;
-    width: auto;
-    margin: 20px 40px;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
     padding: 25px;
     border-radius: 20px;
 }
@@ -80,4 +81,35 @@ h3 {
 
 .acme {
     font-family: 'Acme', sans-serif;
+}
+
+/* TEXT STYLES */
+
+ul.heading-example,
+ul.paragraph-example,
+ul.extra-example {
+    margin: 20px 0;
+    list-style: none;
+}
+
+ul.extra-example {
+    margin-bottom: 0px !important;
+}
+
+h1.heading-example {
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Syne';
+}
+
+p.paragraph-example {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Syne';
+}
+
+p.extra-example {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Acme';
 }
