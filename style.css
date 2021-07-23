@@ -58,3 +58,26 @@ header h1 {
     background-color: #001011;
     color: white;
 }
+
+li {
+    line-height: 1.5;
+}
+
+/* FONTS */
+
+h3 {
+    padding: 20px 0;
+}
+
+.part p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.syne {
+    font-family: 'Syne', sans-serif;
+}
+
+.acme {
+    font-family: 'Acme', sans-serif;
+}
